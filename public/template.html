@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{pageTitle}}</title>
+    <link rel="stylesheet" href="/home.css">
+    <script src="/client-side.js" defer></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="header1" colspan="2">
+                <table id="header2">
+                    <tr>
+                        <td>
+                            <a href="/" class="logo">
+                                <img src="https://w7.pngwing.com/pngs/174/600/png-transparent-cat-animal-lovely-cat-thumbnail.png" alt="Home" id="logo">
+                            </a>
+                        </td>
+                        <td>
+                            <h1 id="pageName">{{pageName}}</h1>
+                            <p class="normal">Login status: {{loginStatus}}</p>
+                            <p class="normal">{{loginLink}}</p>
+                        </td>
+                        <td>
+                            <h4 id="currentTime"></h4>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+        <tr>
+            
+            <td id="side-menu">
+                <h2>Side menu</h2>
+
+                <div id="links">
+                    <a href="/" class="{{/-LinkClass}}">Home</a>
+                    <a href="/find-dog-cat" class="{{find-cat-dog-LinkClass}}">Find a dog/cat</a>
+                    <a href="/dog-care" class="{{dog-care-LinkClass}}">Dog Care</a>
+                    <a href="/cat-care" class="{{cat-care-LinkClass}}">Cat Care</a>
+                    <a href="/have-a-pet-to-give-away" class="{{pet-give-away-LinkClass}}">Have a pet to give away</a>
+                    <a href="/contact-us" class="{{contact-us-LinkClass}}">Contact Us</a>
+                    <a href="/create-account" class="{{create-account-LinkClass}}">Create an Account</a>
+                </div>
+            </td>
+
+            <td id="content">
+            {{pageContent}}
+            </td>
+        </tr>
+
+        <tr>
+            <td id="footer" colspan="2">
+                <h3>Thank you for visiting {siteName}!</h3>
+                <p>Your information is safe with us. We do not sell, share, or distribute your personal data to third parties.
+                    <a href="/privacy-disclaimer-statement" id="privacy-policy">View our privacy policy</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

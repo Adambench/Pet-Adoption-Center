@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    line-height: 1.2;
+    background-color:#6B8F71FF ;
+}
+
+table{
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    border: none;
+    border-collapse: collapse;
+}
+
+#availablePets{
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 7vw;
+    height: 15vh;
+    max-width: 150px;
+}
+
+#pageName{
+    justify-content: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+
+#header1{
+    height: 15vh;
+    width: 100%;
+    background-color: #6B8F71FF;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px;
+    font-size: 2vw;
+}
+
+
+#header2{
+    height: 15vh;
+    width: 100%;
+    background-color: #6B8F71FF;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px;
+    font-size: 2vw;
+}
+
+#content{
+    display: block;
+    height: 100%;
+    background-color: #AEC3B0FF;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+
+#side-menu{
+    padding: 20px;
+    width: 25%;
+    max-width: 100px;
+    background-color: #E3EFD3FF;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+
+#footer{
+    height: 15vh;
+    background-color: #0D2B1DFF;
+    color: white;
+    text-align: center;
+}
+
+.active{
+    background-color: #345635FF;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+}
+
+
+#links a{
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: left;
+    color: black;
+
+}
+
+#links a:hover{
+    background-color: rgb(28, 56, 33);
+    border-radius: 10px;
+    color: azure;
+}
+
+#privacy-policy{
+    color: white;
+}
+
+.error{
+    color: red;
+}
+
+
+.account-form {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px 40px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.account-form h1 {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.account-form h3 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #333;
+}
+
+.account-form p {
+    font-size: 0.7em;
+    margin-top: -8px;
+    margin-bottom: 15px;
+}
+
+.account-form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.account-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.account-form input:focus {
+    outline: none;
+    border-color: #0077ff;
+    box-shadow: 0 0 4px rgba(0, 119, 255, 0.3);
+}
+
+
+.normal{
+    color: black;
+    font-size: 0.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
