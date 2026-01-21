@@ -1,6 +1,0 @@
-1:jhon:dog:german shepherd:female:other-dogs,other-cats:This dawg cute ah:Junkyjew:Arolf
-2:jhon:cat:persian:female:other-cats:Lowkey good vides:Choukette:Gojo
-3:jhon:dog:shiba:male:other-dogs,other-cats,kids:He a real G:Bruther:Jhon Doe
-4:jhon:cat:german shepherd:female:other-dogs,other-cats,kids:Brag:Peter:Boney Bo
-5:jhon:dog:german shepherd:male:other-dogs:Nah he'd win fr:Dora:Whada Kaff
-6:jhon:cat:shiba:dnm:other-cats:He a real G:Yo Boi Anton:Mountaga
